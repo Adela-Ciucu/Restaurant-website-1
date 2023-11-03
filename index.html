@@ -25,55 +25,49 @@
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">Our Story</a></li>
                     <li><a href="contact.html">Reservation</a></li>
-                    <li><a class="bg-dark" href="order_online.html">Order Online</a></li>
+                    <li><a class="bg-dark btn" href="./order_online.html">Order Online</a></li>
                 </ul>
             </div>
         </nav>
 
         <div id="showcase">
-            <h1 classs="l-heading">Fresh, Healty, Made With Love </h1>
-            <div class="img-showcase"></div>
-            <p class="m-heading">We serve delicious, nourishing food, staying true to our commitment to using local,
-                sustainable and
-                organic produce.</p>
-            <a class="bg-dark" href="menu.html" class="btn">Our Menu</a>
-
+            <div class="container">
+                <div class="showcase-content">
+                    <h1 class="l-heading">Fresh, Healty, Made With Love </h1>
+                    <img src="./css/img/showcase.jpg" alt="showcase-img">
+                    <p class="m-heading">We serve delicious, nourishing food, staying true to our commitment to using
+                        local, sustainable and organic produce.</p>
+                    <a class="bg-dark btn" href="menu.html">Our Menu</a>
+                </div>
+            </div>
         </div>
 
     </header>
 
     <section id="home-info">
-        <div class="container">
-            <div class="info-content">
-                <h1 class="l-heading">How We Reinvent Farm-to-Table Dining</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam voluptate similique
-                    suscipit est quas soluta quae fugiat reprehenderit cumque.</p>
-                <a class="bg-light" href="about.html" class="btn">Our Story</a>
-            </div>
-
-            <div class="info-img"></div>
-
+        <div class="info-content">
+            <h1 class="m-heading">How We Reinvent Farm-to-Table Dining</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam voluptate similique suscipit est quas soluta quae fugiat reprehenderit cumque.</p>
+            <a class="bg-light btn" href="./about.html">Our Story</a>
         </div>
 
+        <div class="info-img"><img src="./css/img/image2.jpg" alt="dish"></div>
     </section>
 
-    <section id="community-info-box">
+    <section id="community-info-box" class="bg-green">
         <div class="box">
             <h2>Community</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint a nostrum saepe deleniti
-                laudantium esse, itaque dolorum rerum. Asperiores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint a nostrum saepe deleniti.</p>
         </div>
 
         <div class="box">
             <h2>Sustainability</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum obcaecati nostrum dignissimos nam
-                distinctio ducimus tenetur reprehenderit culpa nobis quibusdam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum obcaecati nostrum dignissimos nam distinctio ducimus.</p>
         </div>
 
         <div class="box">
             <h2>Integrity</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non saepe hic tempora eveniet cupiditate
-                reprehenderit minus excepturi assumenda dolores sed.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non saepe hic tempora reprehenderit minus excepturi assumenda dolores sed.</p>
         </div>
     </section>
 
@@ -82,7 +76,7 @@
             <h1 class="l-heading"> Kale Special Menu Is On!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta sint. Architecto, unde?
                 Voluptates numquam corporis doloremque quod sequi ratione accusamus tempore similique optio!</p>
-            <img src="" alt="">
+            <img src="./css/img/Green Leaves.jpg" alt="green leaved">
         </div>
 
         <div class="speciality-img"></div>
@@ -129,7 +123,7 @@
                 <label for="time">Time</label>
                 <input type="time" id="time" name="time" placeholder="08:00 PM">
 
-                <button class="bg-green" type="submit">Find a Table</button>
+                <button class="bg-green btn" type="submit">Find a Table</button>
             </form>
         </div>
     </section>
@@ -154,10 +148,10 @@
             <div class="box">
                 <h2>Join Us</h2>
                 <p>Subscribe to our newsletter for updates and deals</p>
-                <form action="">
+                <form action="proces.php">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" autocomplete="on">
-                    <button type="submit">Join</button>
+                    <button class="btn" type="submit">Join</button>
                 </form>
             </div>
         </div>
