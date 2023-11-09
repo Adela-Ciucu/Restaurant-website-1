@@ -94,7 +94,7 @@
             <img src="./css/img/Cocktails.jpg" alt="Cocktails">
         </div>
 
-        <div class="testimonial bg-green">
+        <div class="testimonial">
             <h1 class="m-heading">A Word From Our Customers </h1>
             <div>
                 <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, adipisci id? Consequatur magn
@@ -120,23 +120,22 @@
             <h2>Reserve a Table</h2>
             <p>To help us find the best table for you, select the preferred party size, date, and time of your
                 reservation.</p>
+                <form action="proses.php">
+                    <div>
+                        <label for="party size">Party size</label>
+                        <input type="text" id="party size" name="party size" placeholder=" 2 guests">
+                    </div>
 
-            <form action="proses.php">
-                <div>
-                    <label for="party size">Party size</label>
-                    <input type="text" id="party size" name="party size" placeholder="2 guests">
-                </div>
-
-                <div>
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="date" placeholder="10/26/2023">
-                </div>
-                <div>
-                    <label for="time">Time</label>
-                    <input type="time" id="time" name="time" placeholder="08:00 PM">
-                </div>
-                <button class="bg-green" type="submit">Find a Table</button>
-            </form>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" placeholder="10/26/2023">
+                    </div>
+                    <div>
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" placeholder="08:00 PM">
+                    </div>
+                    <button class="bg-green btn" type="submit">Find a Table</button>
+                </form>
         </div>
     </section>
 
@@ -144,6 +143,8 @@
         <div id="info-box" class="bg-blue">
             <div class="box">
                 <h2>Connect</h2>
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
                 <p>123-456-7890</p>
                 <p>info@mysite.com</p>
             </div>
@@ -161,10 +162,10 @@
                 <h2>Join Us</h2>
                 <p>Subscribe to our newsletter for updates and deals</p>
                 <form action="proces.php">
-                    <label for="email">Email</label>
+                    <label for="email">Email *</label>
                     <input type="email" id="email" name="email" autocomplete="on">
-                    <button class="btn" type="submit">Join</button>
                 </form>
+                <button class="btn" type="submit">Join</button>
             </div>
         </div>
     </section>

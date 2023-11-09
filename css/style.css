@@ -38,9 +38,20 @@ p {
     color: #fcf5ee;
 }
 
+.bg-dark:hover {
+    color: #20303c;
+    background: #fcf5ee;
+    border: #20303c solid 1px;
+}
+
 .bg-light {
     border: 1px solid #20303c;
     color: #20303c;
+}
+
+.bg-light:hover {
+   color: #fcf5ee;
+   background:#20303c;
 }
 
 .bg-blue {
@@ -51,6 +62,12 @@ p {
 .bg-green {
     background: #627750;
     color: #fff;
+}
+
+.bg-green:hover {
+    color: #627750;
+    background: #fcf5ee;
+    border: 1px #627750 solid  ;
 }
 
 .btn {
@@ -190,8 +207,10 @@ p {
 
 #testimonials .testimonial {
     text-align: center;
-    padding: 40px;
-    border-radius: 25%;
+    padding: 60px;
+    border-top-left-radius: 40%;
+    background: #627750;
+    color: #fcf5ee;
 }
 
 #testimonials .testimonial h1 {
@@ -201,9 +220,9 @@ p {
 #reservation-first-pg {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-bottom: 120px;
 }
 
 #reservation-first-pg h2 {
@@ -219,43 +238,49 @@ p {
     margin: 0 0 80px 0;
 }
 
-#reservation-first-pg .reservation form {
+ #reservation-first-pg .reservation form {
     display: flex;
-    flex-direction: row;
+    align-items: flex-end;
 }
 
 #reservation-first-pg .reservation div {
     flex: 1;
     text-align: left;
     padding-right: 20px;
+    color: #221A43;
 }
 
-#reservation-first-pg .reservation div label {
+#reservation-first-pg .reservation  form div label {
+    display: inline-block;
     padding: 8px 0;
 }
 
-#reservation-first-pg .reservation div input {
+#reservation-first-pg .reservation form div input {
     width: 100%;
     padding: 8px 0;
+    font-size: 20px;
+    border: solid 1px #aca9a9;
+    background: #ece8e0;
+    color:#221A43 ;
 }
 
-#reservation-first-pg .reservation button {
+ #reservation-first-pg .reservation button {
     padding: 8px 16px;
     font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
+    border-radius: 50px;
     border: none;
-}
+    cursor: pointer;
+    height: 45px;
+}  
 
 #info-box {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
 }
 
 #info-box .box  {
-    padding: 120px 50px;
+    padding: 150px 50px;
 }
 
 #info-box .box h2 {
@@ -264,7 +289,35 @@ p {
 }
 
 #info-box .box p {
-    line-height: 5px;
+    margin: 8px 20px 3px 0;
+}
+
+#info-box .box i {
+    padding: 15px 5px;
+}
+
+#info-box .box  form label {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#info-box .box form input {
+    background: #221A43;
+    border: none;
+    border-bottom: #fff 1px solid;
+    padding: 15px;
+    width: 100%;
+}
+
+#info-box .box button {
+    margin-top: 25px;
+    background: #221A43;
+    color: #fff;
+    border: #fff 1px solid;
+}
+
+#info-box .box button:hover{
+    background: #42404b;
 }
 
 #main-footer {
