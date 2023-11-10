@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #ece8e0;
+    background: #f5ecdf;
     color: #20303c;
 }
 
@@ -67,7 +67,7 @@ p {
 .bg-green:hover {
     color: #627750;
     background: #fcf5ee;
-    border: 1px #627750 solid  ;
+    border: 1px solid #627750;
 }
 
 .btn {
@@ -80,6 +80,7 @@ p {
 #navbar {
     position: sticky;
     top: 0;
+    
 }
 
 #navbar .container {
@@ -88,7 +89,7 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: #ece8e0;
+    background: #f5ecdf;
 }
 
 #navbar .container .logo a {
@@ -159,6 +160,8 @@ p {
     margin-top: 100px;
     margin-right: 300px;
     padding: 100px;
+    background: #627750;
+    color: #fff;
 }
 
 #community-info-box .box {
@@ -260,7 +263,7 @@ p {
     padding: 8px 0;
     font-size: 20px;
     border: solid 1px #aca9a9;
-    background: #ece8e0;
+    background: #f5ecdf;
     color:#221A43 ;
 }
 
@@ -268,7 +271,7 @@ p {
     padding: 8px 16px;
     font-size: 16px;
     border-radius: 50px;
-    border: none;
+    border:1px solid #627750;
     cursor: pointer;
     height: 45px;
 }  
@@ -318,6 +321,53 @@ p {
 
 #info-box .box button:hover{
     background: #42404b;
+}
+
+/* page 2 */
+
+#menu h1 {
+    font-size: 100px;
+}
+
+#menu h1,h2 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#menu .menu-content .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 200px;
+    margin-bottom: 20px;
+}
+
+#menu .menu-content h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#menu .menu-content .box {
+    line-height: 1.6em;
+    margin: 12px 10px 25px 10px;
+    text-align: center;
+}
+
+#menu .menu-content .box p{
+    text-align: center;
+}
+
+#menu .menu-content .box i {
+    background: #627750;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#menu .menu-content  {
+    text-align: center;
+    margin-bottom: 150px;
 }
 
 #main-footer {
