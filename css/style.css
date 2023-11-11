@@ -368,6 +368,53 @@ p {
     margin-bottom: 150px;
 }
 
+/* page 3 */
+
+#about-info .container {
+    display: flex;
+    margin: 50px 120px 150px 120px;
+}
+
+#about-info .container div {
+    flex: 1;
+}
+
+#about-info .container .content-left {
+    margin: 50px;
+}
+
+#about-info .container .content-left h2,h3 {
+    padding: 10px 50px;
+}
+
+#about-info .container .content-left h2 {
+    font-size: 62px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#about-info .container .content-left h3 {
+    font-size: 32px;
+    margin: 0 170px 100px 0;
+}
+
+#about-info .container .content-left img {
+    margin-top: 150px;
+    margin-left: 220px;
+}
+
+#about-info .container .content-right img{
+    height: 700px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+#about-info .container .content-right p {
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
 #main-footer {
     background: rgb(34, 26, 67);
     color: #fff;
