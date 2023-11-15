@@ -415,6 +415,72 @@ p {
     font-weight: bold;
 }
 
+#reservation .container {
+    text-align: center;
+    margin: 50px 300px;
+}
+
+#reservation .container .reservation-info-up p {
+    text-align: center;
+    margin:25px 0 90px 0;
+    font-weight: bold;
+}
+
+#reservation .container .reservation-info-up form {
+    display: flex;
+}
+
+#reservation .container .reservation-info-up form div {
+    flex: 1;
+    color: #221A43;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#reservation .container .reservation-info-up label {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+
+#reservation .container .reservation-info-up input {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    border: 1px solid #aca9a9;
+    background: #f5ecdf;
+    color: #221A43;
+}
+
+#reservation .container .reservation-info-down p {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+#reservation .container .reservation-info-down input {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    margin: 8px;
+    border: 1px solid #aca9a9;
+    background: #f5ecdf;
+    color: #221A43;
+    cursor: pointer;
+}
+
+#reservation .container .reservation-info-down button {
+    padding: 8px 16px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    border:1px solid #627750;
+    cursor: pointer;
+}
+
 #main-footer {
     background: rgb(34, 26, 67);
     color: #fff;

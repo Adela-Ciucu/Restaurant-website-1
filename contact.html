@@ -21,88 +21,97 @@
             <div class="container">
                 <h1 class="logo"> <a href="./index.html"><i class="fa-regular fa-moon fa-3x"></i>Luna R </a></h1>
                 <ul>
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="about.html">Our Story</a></li>
-                    <li><a href="contact.html">Reservation</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./about.html">Our Story</a></li>
+                    <li><a class="current" href="./contact.html">Reservation</a></li>
                     <li><a class="bg-dark btn" href="./order_online.html">Order Online</a></li>
                 </ul>
             </div>
         </nav>
 
-    <section id="reservation">
-        <div class="container">
-            <h1 class="l-heading">Reservation</h1>
-            <p>To help us find the best table for you, select the preferred party size, date, and time of your reservation.</p>
+        <section id="reservation">
+            <div class="container">
+                <div class="reservation-info-up">
+                    <h1 class="l-heading">Make a reservation</h1>
+                    <p>To help us find the best table for you, select the preferred party size, date, and time of your
+                        reservation.</p>
 
-            <form action="proses.php">
-                <label for="party size">Party size</label>
-                <input type="text" id="party size" name="party size" placeholder="2 guests">
+                    <form action="proses.php">
+                        <div>
+                            <label for="party size">Party size</label>
+                            <input type="text" id="party size" name="party size" placeholder="2 guests">
+                        </div>
+                        <div>
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date" placeholder="10/26/2023">
+                        </div>
+                        <div>
+                            <label for="time">Time</label>
+                            <input type="time" id="time" name="party size" placeholder="08:00 PM">
+                        </div>
+                    </div>
+                    <hr>
 
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date" placeholder="10/26/2023">
-
-                <label for="time">Time</label>
-                <input type="time" id="party size" name="party size" placeholder="08:00 PM">
-                <hr>
-                <p>Choose an available time slot:</p>
-                <input type="text" placeholder="11:00 AM">
-                <input type="text" placeholder="11:15 AM">
-                <input type="text" placeholder="11:30 AM">
-                <input type="text" placeholder="11:45 AM">
-                <input type="text" placeholder="12:00 AM">
-                <input type="text" placeholder="12:15 AM">
-                <input type="text" placeholder="12:30 AM">
-                <input type="text" placeholder="12:45 AM">
-                <input type="text" placeholder="8:15 PM">
-                <input type="text" placeholder="8:30 PM">
-                <input type="text" placeholder="8:45 PM">
-                <input type="text" placeholder="9:00 PM">
-                <input type="text" placeholder="9:15 PM">
-                <input type="text" placeholder="9:30 PM">
-                <input type="text" placeholder="9:45 PM">
-                <input type="text" placeholder="10:00 PM">
-
-                <br>
-                <button class="bg-green" type="submit">Reserve Now</button>
-            </form>
-        </div>
-    </section>
-
-    <section id="suplimentar-info">
-        <div id="info-box" class="bg-blue">
-            <div class="box">
-                <h2>Connect</h2>
-                <i class="fa-brands fa-facebook-f fa-2x"></i>
-                <i class="fa-brands fa-instagram fa-2x"></i>
-                <p>123-456-7890</p>
-                <p>info@mysite.com</p>
+                <div class="reservation-info-down">
+                    <p>Choose an available time slot:</p>
+                    <input type="text" placeholder="11:00 AM">
+                    <input type="text" placeholder="11:15 AM">
+                    <input type="text" placeholder="11:30 AM">
+                    <input type="text" placeholder="11:45 AM">
+                    <input type="text" placeholder="12:00 AM">
+                    <input type="text" placeholder="12:15 AM">
+                    <input type="text" placeholder="12:30 AM">
+                    <input type="text" placeholder="12:45 AM">
+                    <input type="text" placeholder="8:15 PM">
+                    <input type="text" placeholder="8:30 PM">
+                    <input type="text" placeholder="8:45 PM">
+                    <input type="text" placeholder="9:00 PM">
+                    <input type="text" placeholder="9:15 PM">
+                    <input type="text" placeholder="9:30 PM">
+                    <input type="text" placeholder="9:45 PM">
+                    <input type="text" placeholder="10:00 PM">
+                    <br>
+                    <button class="bg-green" type="submit">Reserve Now</button>
+                    </form>
+                </div>
             </div>
+        </section>
 
-            <div class="box">
-                <h2>Visit</h2>
-                <p>Mon - Fri: 11am - 10pm</p>
-                <p>Sat - Sun: 11am - 12pm</p>
-                <br>
-                <p>500 Terry Francine Street</p>
-                <p>San Francisco, CA 94158</p>
+        <section id="suplimentar-info">
+            <div id="info-box" class="bg-blue">
+                <div class="box">
+                    <h2>Connect</h2>
+                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <p>123-456-7890</p>
+                    <p>info@mysite.com</p>
+                </div>
+
+                <div class="box">
+                    <h2>Visit</h2>
+                    <p>Mon - Fri: 11am - 10pm</p>
+                    <p>Sat - Sun: 11am - 12pm</p>
+                    <br>
+                    <p>500 Terry Francine Street</p>
+                    <p>San Francisco, CA 94158</p>
+                </div>
+
+                <div class="box">
+                    <h2>Join Us</h2>
+                    <p>Subscribe to our newsletter for updates and deals</p>
+                    <form action="proces.php">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="on">
+                        <button class="btn" type="submit">Join</button>
+                    </form>
+                </div>
             </div>
+        </section>
 
-            <div class="box">
-                <h2>Join Us</h2>
-                <p>Subscribe to our newsletter for updates and deals</p>
-                <form action="proces.php">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" autocomplete="on">
-                    <button class="btn" type="submit">Join</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer id="main-footer">
-        <p>Luna Restaurant &copy; All rights reserved</p>
-    </footer>
+        <footer id="main-footer">
+            <p>Luna Restaurant &copy; All rights reserved</p>
+        </footer>
 
 </body>
 
