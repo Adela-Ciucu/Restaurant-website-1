@@ -50,8 +50,8 @@ p {
 }
 
 .bg-light:hover {
-   color: #fcf5ee;
-   background:#20303c;
+    color: #fcf5ee;
+    background: #20303c;
 }
 
 .bg-blue {
@@ -80,7 +80,7 @@ p {
 #navbar {
     position: sticky;
     top: 0;
-    
+
 }
 
 #navbar .container {
@@ -241,7 +241,7 @@ p {
     margin: 0 0 80px 0;
 }
 
- #reservation-first-pg .reservation form {
+#reservation-first-pg .reservation form {
     display: flex;
     align-items: flex-end;
 }
@@ -253,28 +253,37 @@ p {
     color: #221A43;
 }
 
-#reservation-first-pg .reservation  form div label {
+#reservation-first-pg .reservation form div label {
     display: inline-block;
     padding: 8px 0;
 }
 
-#reservation-first-pg .reservation form div input {
+#reservation-first-pg .reservation form div input,
+select {
     width: 100%;
     padding: 8px 0;
     font-size: 20px;
     border: solid 1px #aca9a9;
     background: #f5ecdf;
-    color:#221A43 ;
+    color: #221A43;
 }
 
- #reservation-first-pg .reservation button {
+#reservation-first-pg .reservation form div select:hover {
+    border: #20303c solid 1px;
+}
+
+#reservation-first-pg .reservation form div input:hover {
+    border: #20303c solid 1px;
+}
+
+#reservation-first-pg .reservation button {
     padding: 8px 16px;
     font-size: 16px;
     border-radius: 50px;
-    border:1px solid #627750;
+    border: 1px solid #627750;
     cursor: pointer;
     height: 45px;
-}  
+}
 
 #info-box {
     display: flex;
@@ -282,7 +291,7 @@ p {
     justify-content: space-evenly;
 }
 
-#info-box .box  {
+#info-box .box {
     padding: 150px 50px;
 }
 
@@ -299,7 +308,7 @@ p {
     padding: 15px 5px;
 }
 
-#info-box .box  form label {
+#info-box .box form label {
     display: inline-block;
     padding-top: 20px;
 }
@@ -319,7 +328,7 @@ p {
     border: #fff 1px solid;
 }
 
-#info-box .box button:hover{
+#info-box .box button:hover {
     background: #42404b;
 }
 
@@ -327,7 +336,8 @@ p {
     font-size: 100px;
 }
 
-#menu h1,h2 {
+#menu h1,
+h2 {
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
@@ -352,7 +362,7 @@ p {
     text-align: center;
 }
 
-#menu .menu-content .box p{
+#menu .menu-content .box p {
     text-align: center;
 }
 
@@ -363,7 +373,7 @@ p {
     border-radius: 50%;
 }
 
-#menu .menu-content  {
+#menu .menu-content {
     text-align: center;
     margin-bottom: 150px;
 }
@@ -383,7 +393,8 @@ p {
     margin: 50px;
 }
 
-#about-info .container .content-left h2,h3 {
+#about-info .container .content-left h2,
+h3 {
     padding: 10px 50px;
 }
 
@@ -404,7 +415,7 @@ p {
     margin-left: 220px;
 }
 
-#about-info .container .content-right img{
+#about-info .container .content-right img {
     height: 700px;
     width: 600px;
     margin-bottom: 100px;
@@ -422,7 +433,7 @@ p {
 
 #reservation .container .reservation-info-up p {
     text-align: center;
-    margin:25px 0 90px 0;
+    margin: 25px 0 90px 0;
     font-weight: bold;
 }
 
@@ -445,7 +456,8 @@ p {
     margin: 0 0 8px;
 }
 
-#reservation .container .reservation-info-up input {
+#reservation .container .reservation-info-up select,
+input {
     width: 100%;
     padding: 8px 0;
     font-size: 18px;
@@ -454,22 +466,43 @@ p {
     color: #221A43;
 }
 
+#reservation .container .reservation-info-up select:hover{
+    border: #20303c solid 1px;
+}
+
+#reservation .container .reservation-info-up input:hover {
+    border: #20303c solid 1px;
+}
+
+#reservation .container .reservation-info-down {
+    height: 500px;
+}
+
 #reservation .container .reservation-info-down p {
     font-weight: bold;
     margin-top: 30px;
 }
 
+#reservation .container .reservation-info-down form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
 
-
-#reservation .container .reservation-info-down input {
+#reservation .container .reservation-info-down form div {
     text-align: center;
     font-size: 16px;
     padding: 20px;
-    margin: 8px;
+    margin: 6px;
     border: 1px solid #aca9a9;
     background: #f5ecdf;
     color: #221A43;
     cursor: pointer;
+}
+
+#reservation .container .reservation-info-down form div:hover {
+    border: #20303c solid 1px;
 }
 
 #reservation .container .reservation-info-down button {
@@ -477,7 +510,7 @@ p {
     margin-top: 20px;
     font-size: 16px;
     border-radius: 50px;
-    border:1px solid #627750;
+    border: 1px solid #627750;
     cursor: pointer;
 }
 
@@ -486,6 +519,7 @@ p {
     color: #fff;
     padding: 0.40rem;
 }
+
 #main-footer p {
     text-align: center;
 }

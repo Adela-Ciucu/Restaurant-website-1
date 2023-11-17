@@ -40,40 +40,117 @@
                     <form action="proses.php">
                         <div>
                             <label for="party size">Party size</label>
-                            <input type="text" id="party size" name="party size" placeholder="2 guests">
+                            <select name="party size">
+                                <option value="2 guests">2 guests</option>
+                                <option value="3 guests">3 guests</option>
+                                <option value="4 guests">4 guests</option>
+                                <option value="6 guests">6 guests</option>
+                                <option value="8 guests">8 guests</option>
+                                <option value="10 guests">10 guests</option>
+                                <option value="12 guests">12 guests</option>
+                                <option value="20 guests">20 guests</option>
+                            </select>
                         </div>
                         <div>
                             <label for="date">Date</label>
-                            <input type="date" id="date" name="date" placeholder="10/26/2023">
+                            <input type="date" id="date" name="date" value="2023-11-17" min="2023-06-07" max="2500-01-01">
                         </div>
                         <div>
                             <label for="time">Time</label>
-                            <input type="time" id="time" name="party size" placeholder="08:00 PM">
+                            <select name="time" id="time">
+                                <option value="">11:00 AM</option>
+                                <option value="">11:15 AM</option>
+                                <option value="">11:30 AM</option>
+                                <option value="">11:45 AM</option>
+                                <option value="">12:00 AM</option>
+                                <option value="">12:15 AM</option>
+                                <option value="">12:30 AM</option>
+                                <option value="">12:45 AM</option>
+                                <option value="">8:00 PM</option>
+                                <option value="">8:15 PM</option>
+                                <option value="">8:30 PM</option>
+                                <option value="">8:45 PM</option>
+                                <option value="">9:00 PM</option>
+                                <option value="">9:15 PM</option>
+                                <option value="">9:30 PM</option>
+                                <option value="">9:45 PM</option>
+                                <option value="">10:00 PM</option>
+                            </select>
                         </div>
-                    </div>
-                    <hr>
+                    </form>
+                </div>
+                <hr>
 
                 <div class="reservation-info-down">
                     <p>Choose an available time slot:</p>
-                    <input type="text" placeholder="11:00 AM">
-                    <input type="text" placeholder="11:15 AM">
-                    <input type="text" placeholder="11:30 AM">
-                    <input type="text" placeholder="11:45 AM">
-                    <input type="text" placeholder="12:00 AM">
-                    <input type="text" placeholder="12:15 AM">
-                    <input type="text" placeholder="12:30 AM">
-                    <input type="text" placeholder="12:45 AM">
-                    <input type="text" placeholder="8:15 PM">
-                    <input type="text" placeholder="8:30 PM">
-                    <input type="text" placeholder="8:45 PM">
-                    <input type="text" placeholder="9:00 PM">
-                    <input type="text" placeholder="9:15 PM">
-                    <input type="text" placeholder="9:30 PM">
-                    <input type="text" placeholder="9:45 PM">
-                    <input type="text" placeholder="10:00 PM">
-                    <br>
-                    <button class="bg-green" type="submit">Reserve Now</button>
+                    <form action="proces.php">
+                        <div>
+                            <input type="radio" name="11:00 AM" value="11:00 AM">
+                            <label for="11:00 AM">11:00 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="11:15 AM" value="11:15 AM">
+                            <label for="11:15 AM">11:15 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="11:45 AM" value="11:45 AM">
+                            <label for="11:45 AM">11:45 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="12:00 AM" value="12:00 AM">
+                            <label for="12:00 AM">12:00 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="12:15 AM" value="12:15 AM">
+                            <label for="12:15 AM">12:15 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="12:30 AM" value="12:30 AM">
+                            <label for="12:30 AM">12:30 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="12:45 AM" value="12:45 AM">
+                            <label for="12:45 AM">12:45 AM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="8:15 PM" value="8:15 PM">
+                            <label for="8:15 AM">8:15 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="8:15 PM" value="8:15 PM">
+                            <label for="8:15 PM">8:15 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="8:30 PM" value="8:30 PM">
+                            <label for="8:30 PM">8:30 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="8:45 PM" value="8:45 PM">
+                            <label for="8:45 PM">8:45 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="9:00 PM" value="9:00 PM">
+                            <label for="9:00 PM">9:00 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="9:15 PM" value="9:15 PM">
+                            <label for="9:15 PM">9:15 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="9:30 PM" value="9:30 PM">
+                            <label for="9:30 PM">9:30 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="9:45 PM" value="9:45 PM">
+                            <label for="9:45 PM">9:45 PM</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="10:00 PM" value="10:00 PM">
+                            <label for="10:00 PM">10:00 PM</label>
+                        </div>
+                        <br>
                     </form>
+                    <button class="bg-green" type="submit">Reserve Now</button>
                 </div>
             </div>
         </section>
