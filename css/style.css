@@ -80,7 +80,6 @@ p {
 #navbar {
     position: sticky;
     top: 0;
-
 }
 
 #navbar .container {
@@ -336,8 +335,7 @@ select {
     font-size: 100px;
 }
 
-#menu h1,
-h2 {
+#menu h1, h2 {
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
@@ -377,8 +375,6 @@ h2 {
     text-align: center;
     margin-bottom: 150px;
 }
-
-/* page 3 */
 
 #about-info .container {
     display: flex;
@@ -475,7 +471,7 @@ input {
 }
 
 #reservation .container .reservation-info-down {
-    height: 500px;
+    height: 300px;
 }
 
 #reservation .container .reservation-info-down p {
@@ -487,7 +483,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items:center;
 }
 
 #reservation .container .reservation-info-down form div {
@@ -501,17 +497,80 @@ input {
     cursor: pointer;
 }
 
-#reservation .container .reservation-info-down form div:hover {
-    border: #20303c solid 1px;
+#reservation .container .reservation-info-down form div input {
+    display: none;
 }
 
-#reservation .container .reservation-info-down button {
+#reservation .container .reservation-info-down form div:hover {
+    border: #20303c solid 1px;
+    background: #dfdbdb;
+}
+
+#reservation .container button {
     padding: 8px 16px;
     margin-top: 20px;
     font-size: 16px;
     border-radius: 50px;
     border: 1px solid #627750;
     cursor: pointer;
+}
+
+#order-online-info .order-selectors .container h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#order-online-info .order-selectors .container button {
+    font-size: 20px;
+    background: #f5ecdf ;
+    padding: 8px;
+    margin: 20px 30px;
+    border: 1px solid #221A43;
+}
+
+#order-online-info .order-selectors .container button:hover{
+      background: #fcf5ee;
+      border: #20303c solid 1px;
+}
+
+#order-online-info .order-selectors .container .info-under-btn {
+    display: flex;
+}
+
+#order-online-info .order-selectors .container .vertical-line{
+    border-left: #221A43 solid 1px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#order-online-info .order-selectors .container .info-under-btn p {
+    margin: 20px 10px;
+    font-weight: 600;
+}
+
+#order-online-menu .menu-content .container {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+#order-online-menu .menu-content .container div {
+    flex: 1;
+    border: solid 1px #20303c;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+#order-online-menu .menu-content .container div:hover {
+    background: #dfdbdb;
+    cursor: pointer;
+}
+
+#order-online-menu .menu-content h3, p {
+    text-align: center;
 }
 
 #main-footer {
