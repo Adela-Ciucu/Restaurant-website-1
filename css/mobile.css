@@ -1,0 +1,176 @@
+#navbar .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar .container .logo i {
+    font-size: 3rem;
+    align-self: center;
+}
+
+#navbar .container a {
+    display: block;
+    align-self: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#showcase .container .showcase-content h1 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#showcase .container .showcase-content img {
+    width: 100vw;
+    padding: 0;
+}
+
+#showcase .container .showcase-content p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px;
+    margin: 0 20px;
+}
+
+#home-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#home-info .info-content  {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    margin: 10px;
+}
+
+#home-info .info-content h1 {
+    font-size: 32px;
+}
+
+#home-info .info-content p {
+    text-align: justify;
+}
+
+ #home-info .info-img img {
+    height: 50vh;
+    width: 70vw;
+    margin: 0 40px 0 40px;
+}
+
+#community-info-box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    padding: 0 20px;
+    width: 100vw;
+}
+
+#community-info-box .box h2 {
+    padding: 30px 0 20px ;
+    margin: 0;
+}
+
+#speciality-food {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#speciality-food .speciality-info{
+    margin: 0;
+}
+
+#speciality-food .speciality-info h2 {
+    font-size: 32px;
+    text-align: left;
+    width: 80vw;
+    margin: 0;
+    padding: 15px;
+}
+
+#speciality-food .speciality-info p {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 80vw;
+    font-weight: 500;
+}
+
+#speciality-food .speciality-info img {
+    display: none;
+}
+
+#speciality-food .speciality-img img{
+    max-width: 100%;
+    height: 100%; 
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials .testimonials-img img {
+    width: 400px;
+    padding: 20px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    border-top-left-radius: 0;
+    background: #f5ecdf;
+}
+
+#testimonials .testimonial h1 {
+    font-size: 32px;
+    color: #20303c ;
+}
+
+#testimonials .testimonial p {
+    color: #20303c;
+}
+
+#reservation-first-pg {
+    padding: 20px;
+}
+
+#reservation-first-pg .reservation h2{
+    font-size: 32px;
+    padding: 0 24px;
+}
+
+#reservation-first-pg .reservation p {
+    padding: 0 24px;
+    margin-bottom: 40px;
+}
+
+#reservation-first-pg .reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reservation-first-pg .reservation form div input, select {
+    width: 80vw;
+    border-radius: 5px;
+}
+
+#reservation-first-pg .reservation button {
+    margin-top: 20px;
+}
+
+#suplimentar-info #info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#suplimentar-info #info-box .box {
+    padding: 30px 0;
+}
+
+#suplimentar-info #info-box .box h2 {
+    padding: 10px;
+}

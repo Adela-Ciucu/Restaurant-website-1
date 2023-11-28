@@ -119,7 +119,7 @@ p {
 }
 
 #showcase .container .showcase-content img {
-    padding: 30px 80px;
+    padding: 30px 50px;
     width: 100%;
 }
 
@@ -136,7 +136,7 @@ p {
     padding-right: 120px;
 }
 
-.info-content {
+#home-info .info-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,9 +148,9 @@ p {
     margin-right: auto;
 }
 
-#home-info img {
-    border-top-right-radius: 48%;
-    border-top-left-radius: 48%;
+#home-info .info-img img {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 #community-info-box {
@@ -173,7 +173,7 @@ p {
     margin: 100px 80px;
 }
 
-.speciality-info {
+#speciality-food .speciality-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +203,7 @@ p {
 
 #testimonials .testimonials-img img {
     border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 51%;
     padding: 50px 0 100px 70px;
 }
 
@@ -283,36 +283,35 @@ select {
     cursor: pointer;
     height: 45px;
 }
-
-#info-box {
+ #suplimentar-info #info-box {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-#info-box .box {
+#suplimentar-info #info-box .box {
     padding: 150px 50px;
 }
 
-#info-box .box h2 {
+#suplimentar-info #info-box .box h2 {
     font-size: 33px;
     padding-bottom: 15px;
 }
 
-#info-box .box p {
+#suplimentar-info #info-box .box p {
     margin: 8px 20px 3px 0;
 }
 
-#info-box .box i {
+#suplimentar-info #info-box .box i {
     padding: 15px 5px;
 }
 
-#info-box .box form label {
+#suplimentar-info #info-box .box form label {
     display: inline-block;
     padding-top: 20px;
 }
 
-#info-box .box form input {
+#suplimentar-info #info-box .box form input {
     background: #221A43;
     border: none;
     border-bottom: #fff 1px solid;
@@ -320,14 +319,14 @@ select {
     width: 100%;
 }
 
-#info-box .box button {
+#suplimentar-info #info-box .box button {
     margin-top: 25px;
     background: #221A43;
     color: #fff;
     border: #fff 1px solid;
 }
 
-#info-box .box button:hover {
+#suplimentar-info #info-box .box button:hover {
     background: #42404b;
 }
 
