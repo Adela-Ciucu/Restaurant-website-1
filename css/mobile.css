@@ -173,4 +173,49 @@
 
 #suplimentar-info #info-box .box h2 {
     padding: 10px;
+    text-align: left;
+}
+
+#suplimentar-info #info-box .box p {
+    margin: 10px;
+    text-align: left;
+}
+
+#menu h1 {
+    font-size: 54px;
+}
+
+#menu h2 {
+    font-size: 28px;
+}
+
+#menu h1,h2 {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#menu .menu-content h3 {
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
+#menu .menu-content .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#menu .menu-content .container .box {
+    margin: 10px;
+}
+
+#menu .menu-content .container i {
+    display: none;
+}
+
+#about-info .container {
+    display: flex;
+    flex-direction: column;
 }

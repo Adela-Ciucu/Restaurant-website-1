@@ -340,6 +340,11 @@ select {
     margin-bottom: 20px;
 }
 
+#menu .menu-content {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
 #menu .menu-content .container {
     display: flex;
     align-items: center;
@@ -368,11 +373,6 @@ select {
     color: #fff;
     padding: 10px;
     border-radius: 50%;
-}
-
-#menu .menu-content {
-    text-align: center;
-    margin-bottom: 150px;
 }
 
 #about-info .container {
