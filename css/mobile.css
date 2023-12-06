@@ -218,4 +218,64 @@
 #about-info .container {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+#about-info .container .content-left {
+    margin: 0;
+}
+
+#about-info .container .content-left h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#about-info .container .content-left h3 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+#about-info .container .content-left img {
+    display: none;
+}
+
+#about-info .container .content-right img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#about-info .container .content-right p {
+    margin: 20px;
+    text-align: justify;
+}
+
+#reservation .container{
+    margin: 10px 20px;
+}
+
+#reservation .container .reservation-info-up h1{
+    font-size: 28px;
+}
+
+#reservation .container .reservation-info-up p {
+    font-weight: 500;
+    margin: 30px;
+}
+
+#reservation .container .reservation-info-up form {
+    display: flex;
+    flex-direction: column;
+}
+
+#reservation .container .reservation-info-down {
+    margin: 10px;
+    height: auto;
+}
+
+#reservation .container button {
+    padding: 10px 40px;
+    margin: 20px 0 30px;
 }

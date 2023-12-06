@@ -423,7 +423,7 @@ h3 {
 
 #reservation .container {
     text-align: center;
-    margin: 50px 300px;
+    margin: 50px 130px;
 }
 
 #reservation .container .reservation-info-up p {
@@ -470,7 +470,8 @@ input {
 }
 
 #reservation .container .reservation-info-down {
-    height: 300px;
+    height: auto;
+    margin: 50px;
 }
 
 #reservation .container .reservation-info-down p {
@@ -478,12 +479,11 @@ input {
     margin-top: 30px;
 }
 
-#reservation .container .reservation-info-down form{
+ #reservation .container .reservation-info-down .container form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items:center;
-}
+    align-content: space-evenly;
+} 
 
 #reservation .container .reservation-info-down form div {
     text-align: center;
