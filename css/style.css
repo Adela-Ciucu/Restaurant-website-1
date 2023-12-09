@@ -537,7 +537,7 @@ input {
     display: flex;
 }
 
-#order-online-info .order-selectors .container .vertical-line{
+#order-online-info .order-selectors .container .vertical-line {
     border-left: #221A43 solid 1px;
     height: 40px;
     padding: 10px;
@@ -545,7 +545,7 @@ input {
 }
 
 #order-online-info .order-selectors .container .info-under-btn p {
-    margin: 20px 10px;
+    margin: 20px 30px;
     font-weight: 600;
 }
 

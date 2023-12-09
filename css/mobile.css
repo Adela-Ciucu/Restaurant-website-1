@@ -242,9 +242,9 @@
 }
 
 #about-info .container .content-right img {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #about-info .container .content-right p {
@@ -278,4 +278,34 @@
 #reservation .container button {
     padding: 10px 40px;
     margin: 20px 0 30px;
+}
+
+#order-online-info .order-selectors .container h1 {
+    font-size: 40px;
+}
+
+#order-online-info .order-selectors .container button {
+    font-size: 16px;
+}
+
+#order-online-info .order-selectors .container .vertical-line {
+    display: none;
+}
+
+#order-online-info .order-selectors .container  i {
+    margin: 10px 20px;
+}
+
+#order-online-info .order-selectors .container .info-under-btn p {
+    display: none;
+}
+
+#order-online-menu .menu-content .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 10px 20px;
+}
+
+#order-online-menu .menu-content .container .box i {
+    padding: 10px;
 }
