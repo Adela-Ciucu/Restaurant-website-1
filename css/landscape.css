@@ -1,0 +1,191 @@
+#showcase .container .showcase-content h1{
+    font-size: 48px;
+}
+
+#showcase .container .showcase-content p {
+    font-size: 30px;
+    padding: 30px;
+}
+
+#home-info {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#home-info .info-content {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#home-info .info-content h1 {
+    font-size: 28px;
+    padding: 0;
+    margin-top: 55px;
+    text-align: left;
+}
+
+#home-info .info-content a {
+    margin: 0;
+}
+
+#community-info-box {
+    margin-top: 0;
+    margin-right: 220px;
+    padding: 20px;
+}
+
+#community-info-box .box {
+    padding: 10px 20px;
+}
+
+#community-info-box .box p {
+    text-align: left;
+}
+
+#speciality-food {
+    display: flex;
+    margin: 0;
+}
+
+#speciality-food .speciality-info h2 {
+    font-size: 30px;
+}
+
+#speciality-food .speciality-info p {
+    text-align: left;
+}
+
+#speciality-food .speciality-info img {
+    display: none;
+}
+
+#speciality-food .speciality-img img {
+    width: 500px;
+    height: 500px;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#testimonials .testimonial {
+    border-top-left-radius: 0;
+    margin-bottom: 20px;
+}
+
+#testimonials .testimonial h1{
+    font-size: 40px;
+}
+
+#testimonials .testimonials-img img {
+    display: none;
+}
+
+#reservation-first-pg{
+    margin: 50px;
+}
+
+#reservation-first-pg p {
+    margin-bottom: 40px;
+}
+
+#suplimentar-info #info-box .box {
+    padding: 30px 20px;
+}
+
+#suplimentar-info #info-box .box h2 {
+    padding: 10px;
+    text-align: left;
+}
+
+#suplimentar-info #info-box .box p {
+    margin: 10px;
+    text-align: left;
+}
+
+#menu h1 {
+    font-size: 54px;
+    padding: 20px;
+    margin: 0;
+}
+
+#menu h2 {
+    font-size: 35px;
+    padding: 20px;
+}
+
+#menu .menu-content {
+    margin-bottom: 40px;
+}
+
+#menu .menu-content .container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    margin-bottom: 15px;
+}
+
+#menu .menu-content h3 {
+    padding: 0;
+}
+
+#about-info .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#about-info .container .content-left{
+    margin: 10px;
+}
+
+#about-info .container .content-left h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+#about-info .container .content-left h3 {
+    margin: 0;
+    text-align: center;
+}
+
+#about-info .container .content-left img{
+    display: none;
+}
+
+#about-info .container .content-right img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#about-info .container .content-right p {
+    text-align: left;
+    margin: 15px;
+}
+
+#reservation .container {
+    margin: 40px;
+}
+
+#reservation .container .reservation-info-up p{
+    margin: 20px 10px 40px;
+}
+
+#reservation .container .reservation-info-down p{
+    margin: 0;
+}
+
+#reservation .container button {
+    margin: 0;
+}
+
+#order-online-menu h2 {
+    padding: 20px;
+}
+
+#order-online-menu .menu-content .container {
+    margin: 5px;
+}

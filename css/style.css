@@ -144,6 +144,10 @@ p {
     margin: 50px;
 }
 
+#home-info .info-content p {
+    text-align: left;
+}
+
 #home-info .info-content a {
     margin-right: auto;
 }
@@ -237,7 +241,7 @@ p {
 #reservation-first-pg p {
     text-align: center;
     padding: 0 94px;
-    margin: 0 0 80px 0;
+    margin-bottom: 80px ;
 }
 
 #reservation-first-pg .reservation form {

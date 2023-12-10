@@ -109,7 +109,7 @@
 
 #testimonials {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 #testimonials .testimonials-img img {
@@ -271,8 +271,8 @@
 }
 
 #reservation .container .reservation-info-down {
-    margin: 10px;
-    height: auto;
+    margin: 24px;
+    height: 75vh;
 }
 
 #reservation .container button {
