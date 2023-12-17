@@ -483,7 +483,7 @@ input {
     margin-top: 30px;
 }
 
- #reservation .container .reservation-info-down .container form{
+  #reservation .container .reservation-info-down .container form{
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
