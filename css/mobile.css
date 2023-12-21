@@ -182,7 +182,7 @@
 }
 
 #menu h1 {
-    font-size: 54px;
+    font-size: 40px;
 }
 
 #menu h2 {
@@ -190,8 +190,8 @@
 }
 
 #menu h1,h2 {
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 8px;
+    margin-bottom: 0;
 }
 
 #menu .menu-content h3 {
@@ -227,13 +227,13 @@
 
 #about-info .container .content-left h2 {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 10px;
 }
 
 #about-info .container .content-left h3 {
     font-size: 20px;
-    margin: 10px;
+    margin: 5px;
     padding: 0;
 }
 
@@ -244,7 +244,7 @@
 #about-info .container .content-right img {
     height: 400px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #about-info .container .content-right p {
@@ -253,7 +253,7 @@
 }
 
 #reservation .container{
-    margin: 10px 20px;
+    margin: 3px 20px;
 }
 
 #reservation .container .reservation-info-up h1{
@@ -270,9 +270,9 @@
     flex-direction: column;
 }
 
-#reservation .container .reservation-info-down {
-    margin: 24px;
+#reservation .container .reservation-info-down .container form{
     height: 75vh;
+    justify-content: center;
 }
 
 #reservation .container button {
@@ -282,10 +282,12 @@
 
 #order-online-info .order-selectors .container h1 {
     font-size: 40px;
+    margin-bottom: 18px;
 }
 
 #order-online-info .order-selectors .container button {
     font-size: 16px;
+    margin: 10px 30px;
 }
 
 #order-online-info .order-selectors .container .vertical-line {
@@ -307,5 +309,5 @@
 }
 
 #order-online-menu .menu-content .container .box i {
-    padding: 10px;
+    padding: 5px;
 }

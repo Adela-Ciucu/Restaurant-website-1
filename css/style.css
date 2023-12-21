@@ -410,7 +410,7 @@ h3 {
 }
 
 #about-info .container .content-left img {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 220px;
 }
 
@@ -473,23 +473,19 @@ input {
     border: #20303c solid 1px;
 }
 
-#reservation .container .reservation-info-down {
-    height: auto;
-    margin: 50px;
-}
-
-#reservation .container .reservation-info-down p {
+#reservation .reservation-info-down p {
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
-  #reservation .container .reservation-info-down .container form{
+#reservation .reservation-info-down .container form{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-evenly;
+    height: 250px;
+    align-content:space-evenly;
 } 
 
-#reservation .container .reservation-info-down form div {
+#reservation .reservation-info-down .container form div {
     text-align: center;
     font-size: 16px;
     padding: 20px;
